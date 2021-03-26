@@ -1,0 +1,134 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    height: 300vh;
+    width: 300vh;
+    overflow: visible;
+}
+
+
+svg{
+    position: relative;
+    z-index: 200;
+}
+
+
+svg line{
+    stroke: black;
+    stroke-width: 3px;
+}
+
+/* Navigation Tools */
+
+
+.NavigationBar{
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+}
+
+/*
+.Options{
+
+}
+*/
+
+.Zoom-Buttons{
+
+    position: fixed;
+    z-index: 200;
+    height: 25vh;
+    width: 400px;
+    display: flex;
+    flex: row nowrap;
+    
+}
+
+
+.Move-Buttons{
+    height: 15vh;
+    width: 200px;
+    display: flex;
+    float: right;
+}
+
+#Plus{
+    width: 50px;
+    height: 50px;
+}
+
+
+#Minus{
+    width: 50px;
+    height: 50px;
+}
+
+/* Arrows */
+
+
+.arrow{
+    width: 5vh;
+    height: 5vh;
+}
+
+
+
+.arrow-left{
+    transform: rotateZ(-90deg);
+    order: 1;
+    position: absolute;
+}
+
+
+.arrow-up{
+    order: 2;
+    position: absolute;
+}
+
+
+.arrow-down{
+    transform: rotateZ(180deg);
+    align-self: flex-end;
+    order: 3;
+    position: absolute;
+}
+
+
+.arrow-right{
+    transform: rotateZ(90deg);
+    order: 4;
+    position: absolute;
+}
+
+
+/* Content */
+
+.content{
+    display: flex;
+    text-align: center;
+}
+
+
+
+.contentSVG{
+    
+    position: absolute;
+    z-index: 101;
+    margin-top: 15vh;
+}
+
+
+.info{
+    width: 100%;
+    position: fixed; 
+    z-index: 10000;
+    height: 10vh;
+    background-color: white;
+    bottom: 0;
+}

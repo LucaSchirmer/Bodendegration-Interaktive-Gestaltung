@@ -1,0 +1,34 @@
+<svg width="358" height="342" viewBox="0 0 358 342" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <g id="Navigation">
+
+        <g id="Arrow-right">
+            <path id="Vector" d="M279.5 142L357.193 174.161L279.5 206.322V142Z" fill="white" stroke="black"
+                stroke-linecap="square" stroke-linejoin="round" />
+            <path id="Vector_2" d="M272 185.661V162.661H222V185.661H272Z" fill="white" stroke="black"
+                stroke-linecap="square" stroke-linejoin="round" />
+        </g>
+
+        <g id="Arrow-left">
+            <path id="Polygon 1" d="M79 206.161L1.30727 174L79 141.839V206.161Z" fill="white" stroke="black"
+                stroke-linecap="square" stroke-linejoin="round" />
+            <rect id="Rectangle 1" x="86.5" y="185.5" width="23" height="50" transform="rotate(-90 86.5 185.5)"
+                fill="white" stroke="black" stroke-linecap="square" stroke-linejoin="round" />
+        </g>
+
+        <g id="Arrow-up">
+            <path id="Vector_3" d="M147 78.6927L179.161 1L211.322 78.6927H147Z" fill="white" stroke="black"
+                stroke-linecap="square" stroke-linejoin="round" />
+            <path id="Vector_4" d="M190.661 86.1927H167.661V136.193H190.661V86.1927Z" fill="white" stroke="black"
+                stroke-linecap="square" stroke-linejoin="round" />
+        </g>
+
+        <g id="Arrow-down">
+            <path id="Vector_5" d="M211.322 263.5L179.161 341.193L147 263.5H211.322Z" fill="white" stroke="black"
+                stroke-linecap="square" stroke-linejoin="round" />
+            <path id="Vector_6" d="M167.661 256H190.661V206H167.661V256Z" fill="white" stroke="black"
+                stroke-linecap="square" stroke-linejoin="round" />
+        </g>
+
+    </g>
+</svg>
