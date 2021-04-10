@@ -31,6 +31,17 @@ h1{
     justify-content: center;
 }
 
+h2{
+
+    font-size: 4vh;
+    font-weight: 300;  
+    font-style: normal;
+    font-family: "HeadLineFont", serif;
+
+    justify-content: center;
+}
+
+
 svg{
     position: relative;
     z-index: 200;
