@@ -31,7 +31,7 @@ const viewBox2 = [
 
     const zoomInLine2 = document.getElementById('Zoom-In-Line-2');
 
-    const iconPlus = document.getElementById('Plus');
+    const iconPlus    = document.getElementById('Plus');
 
     const zoomOutRect = document.getElementById('Zoom-Out-Rect')
 

@@ -9,23 +9,37 @@
 
     <title>Document</title>
 </head>
-    <script src="../p5.js_lib/p5.js"></script>
-    <script src="sketch.js"></script>     
 <body>
+    <script>
+    </script>
     <section class="project">
         <nav class="NavigationBar">
 
-            <div class="Options">
-                <svg class="Options-Bar">
+            <div class="Options" id="Options">
+                <svg class="Options-Bar" width="5vw" height="8vh">
                     <rect id="Option-Rect-1" x="10" y="15" width="60px" height="10px" fill="#777"></rect>
                     <rect id="Option-Rect-2" x="10" y="32" width="60px" height="10px" fill="#777"></rect>
                     <rect id="Option-Rect-3" x="10" y="49" width="60px" height="10px" fill="#777"></rect>
                 </svg>
             </div>
+            <div class="eventNav" id="eventNav">
+                <div class="Gruppe">
+                    Franziska Michael<br>
+                    Elisa Block<br>
+                    Luca Schirmer<br>
+                </div>
+                <div class="Quellen Gruppe">
+                    <a target="_blank"href="Quellen.html">
+                        Quellen Click To View
+                    </a>
+                    
+                </div>
+            </div>
+
 
             <div class="Zoom-Buttons">
                 <div class="Zoom-In">
-                    <svg class="Plus" height="100%" width="100%">
+                    <svg class="Plus">
                         <g id="Plus">
                         <rect id="Zoom-In-Rect" x="130" y="10" width="50px" height="50px" fill="white" stroke="black"></rect>
                         <line id="Zoom-In-Line-1" x1="155" x2="155" y1="20" y2="50" stroke="black" stroke-width="2px"></line>
@@ -44,11 +58,11 @@
                 </div>
             </div>
 
-            <div class="Move-Buttons">
+            <!--<div class="Move-Buttons">
                 <svg class="Arrows-SVGs" width="358" height="212" viewBox="0 0 358 342" fill="none" xmlns="http://www.w3.org/2000/svg">
 
                     <g id="Navigation">
-                        <!--
+                        
                         <g id="Arrow-right">
                             <path id="Vector" d="M279.5 142L357.193 174.161L279.5 206.322V142Z" fill="white" stroke="black"
                                 stroke-linecap="square" stroke-linejoin="round" />
@@ -76,15 +90,14 @@
                             <path id="Vector_6" d="M167.661 256H190.661V206H167.661V256Z" fill="white" stroke="black"
                                 stroke-linecap="square" stroke-linejoin="round" />
                         </g>
-                        -->
+                        
                     </g>
                 </svg>
             </div>
-
+            -->
         </nav>
         <div class="content" display="flex">
             <div class="Flex-Child">
-
                 <svg id="contentSVG" class="contentSVG" viewBox="0 0 2100 4875" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g id="SVG_Project">
                 <g id="Background">
@@ -359,19 +372,50 @@
                 </g>
                 </svg>
             </div>
-            <div class="info" display="flex">
-                <div class="arrow" self-align="flex-end">
-
+            <div class="info" id="info" display="flex">
+                
+                <div class="Symbol" id="Symbol">
+                    <img class="Symbol-img" id="imgSy"src="Symbol.png">
                 </div>
+                <div id="context" display="flex">
+                    <main class="Bodendegration">
+                    <article class="bodendegration-article">
+                    <div class="infos">
+                        <div class="Überschrift">
+                            <h1> Wir Verlieren an Boden</h1>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+
+                        <p class="main-text"> 
+                            Einer der wichtigsten nartürlichen Ressourcen des Menschens ist der Boden. Guter Boden ist eine Voraussetzung für die Produktion von Nahrungsmitteln.
+                        </p>
+                    </div>
+                    <div class="infoQuelle">
+                        <a target="_blank"href="https://www.bmz.de/de/entwicklungspolitik/boden/hintergrund-20826">https://www.bmz.de/de/entwicklungspolitik/boden/hintergrund-20826</a>
+
+                    </div>
+                    </article>
+                    <main>
+                </div>
+
             </div>
 
            
         </div>
-
-
+        
     </section>
 </body>
-<script src="sketch.js"></script>
 <script src="script.js"></script>
+<script src="Author_Literatur.js"></script>
+<script src="infoScript.js"></script>
 <!--<script src="scriptArrow.js"></script>-->
 </html>

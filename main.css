@@ -1,17 +1,35 @@
+@font-face {
+    font-family:"HeadLineFont";
+    src: url("https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_bZF3gnD_g.woff2");
+}
+
+
+
 
 
 *{
     margin: 0;
     padding: 0;
+    transition: 1000ms;
 }
 
 
 body{
     height: 300vh;
     width: 300vh;
-    overflow: visible;
+    font-family: "Oswald", serif;;
 }
 
+h1{
+    margin-left: 10%;
+
+    font-size: 6vh;
+    font-weight: 400;  
+    font-style: normal;
+    font-family: "HeadLineFont", serif;
+
+    justify-content: center;
+}
 
 svg{
     position: relative;
@@ -33,11 +51,44 @@ svg line{
     z-index: 1000;
 }
 
-/*
-.Options{
 
+.Options{
+    width: 4vw;
+    height: 8vh;
+    position: fixed;
+    z-index: 1001;
 }
-*/
+
+.eventNav{
+    width: 40vh;
+    height: 100vh;
+    position: fixed;
+    z-index: 199;
+    background-color: #bcbcbc;
+    transition: 600ms;
+    transform: translateX(-40vh);
+    display: flex;
+    flex-direction: column;
+}
+
+.Gruppe{
+    color: black;
+    height: 35%;
+    width: 100%;
+    margin-top: 10vh;
+    margin-left: 20px;
+    font-size: x-large;
+}
+
+.Quellen{
+    margin-top: 42vh;
+    margin-bottom: 0vh;
+    justify-self: flex-end;
+    font-size: large;
+    width: 100%;
+    height: 10%;
+}
+
 
 .Zoom-Buttons{
 
@@ -47,7 +98,6 @@ svg line{
     width: 400px;
     display: flex;
     flex: row nowrap;
-    
 }
 
 
@@ -115,12 +165,12 @@ svg line{
 }
 
 
-
 .contentSVG{
-    
     position: absolute;
     z-index: 101;
-    margin-top: 15vh;
+    overflow: scroll; 
+    height: 300%;
+    width: 100%;
 }
 
 
@@ -128,7 +178,33 @@ svg line{
     width: 100%;
     position: fixed; 
     z-index: 10000;
-    height: 10vh;
-    background-color: white;
+    height: 7.5vh;
+    background-color: #aaa;
     bottom: 0;
+    transition: 600ms;
 }
+
+.Symbol{
+    align-self: flex-end;
+    width: 10%;
+    height: 7.5vh;
+    float: right;
+    position: relative;
+    z-index: 200;
+}
+
+.Symbol-img{
+    margin-top: 10%;
+    height: 70%;
+    right: 0;
+    float: right;
+}
+
+/*content Bereich*/
+
+.Überschrift{
+    height: 7.5vh;
+    width: 100%;
+    margin-bottom: 10vh;
+}
+
