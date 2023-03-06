@@ -49,10 +49,3 @@ const Folgen = document.getElementById(`Folgen`);
 const Ursachen = document.getElementById(`Ursachen`);
 
 const arrowsMenschzuUrsache = document.getElementById(`arrow Mensch Ursache`);
-
-/*
-Menschunten.onclick = () => {
-    
-}
-
-*/
